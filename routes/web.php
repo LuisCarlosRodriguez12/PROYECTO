@@ -24,5 +24,9 @@ Route::resource("retos","RetoController");
 Route::resource('aliados_estrategicos','Aliados_estrategicosController')
     ->names('aliados_estrategicos')
     ->parameters(['aliados_estrategicos' => 'lis_aliados']); 
+Route::resource('buscar','BuscarController')
+    ->names('buscar')
+    ->parameters(['buscar' => 'lis']);
+
 
 

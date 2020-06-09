@@ -10,6 +10,7 @@
                     <div class="col-md-7"></div>
                     <div class="col-md-5">
                         <a class="btn btn-small btn-success" href="{{ route('aliados_estrategicos.create') }}">Nuevo</a>
+                        <a class="btn btn-small btn-success" href="{{ route('buscar.create')}}">Buscar</a> 
                     </div>
                 </div>
                 <table class="table table-striped table-bordered table-responsive">
